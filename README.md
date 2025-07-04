@@ -29,6 +29,15 @@ ahora pasamos a la parte de desarrollo
 aqui se explica que se debe primero esnifear (no se si exista esa palabra)
 definicion de esnifear y procedes a explicar que una ip envia y la otra recibe
 
+
+importante antes de inciar todo se debe de ocupar esta linea de codigo que permite que una ip se devuelva
+con esto uno sabe que cosas se envian
+y permite que el mensaje se cambie de select a delete
+
+echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+
+
+
 con esto creamos un archivo python el cual tuve que abrir desde la terminal porque no jalaba
 este archivo lo voy a mandar igual y lo que hace es interceptar los mensajes mediante scapy
 por eso se abre con python
