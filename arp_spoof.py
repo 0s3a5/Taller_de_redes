@@ -1,7 +1,6 @@
 from scapy.all import *
 import time
 
-# ⚠️ RELLENA ESTOS VALORES CON TUS DATOS
 victima_ip = "172.17.0.2"
 servidor_ip = "72.17.0.3"
 interfaz = "docker0"
